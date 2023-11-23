@@ -61,3 +61,17 @@ button{
 .radio{
     text-align: start;
 }
+@media screen and (max-width: 400px) {
+    h1 {
+       text-align: center;
+    }
+}
+
+@media screen and (min-width:450px){
+h1 {
+        text-align: center;
+    }
+}
+
+
+  
