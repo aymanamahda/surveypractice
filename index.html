@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width"; initial-scale="1.0" />
+        <title>Survey form</title>
+    </head>
+    <body>
+        <header>
+        <h1 id="title"> Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform.</p>
+        </header>
+        <div class="surveyform">
+            <p>Name</p>
+            <input placeholder="Enter your name" id="name" type="text">
+            <p>Email</p>
+            <input placeholder="Enter your Email" id="email" type="email">
+            <p>Age (optional)</p>
+            <input placeholder="Age" id="age" type="number" min="18" max="29">
+            <p>Who is your favorite player?</p>
+            <select name="" id="dropdown"  >
+                <option value="Messi">Messi</option>
+                <option value="Pele">Pele</option>
+                <option value="Maradona">Maradona</option>
+                <option value="Cristiano">Cristiano</option>
+            </select>
+            <p>Can you visit europe in april?</p>
+            <div class="radio">
+            <input  name="1" type="radio"><label for="Definitely"> Definitely</label> <br> 
+            <input  name="1" type="radio"><label for="Maybe"> Maybe</label> <br>
+            <input  name="1" type="radio"><label for="Not sure"> Not sure</label> 
+            </div>
+            <p>Who is your favorite football club?</p>
+            <select name="" id="dropdown">
+                <option value="barcelona">Barcelona</option>
+                <option value="real madrid">Real Madrid</option>
+                <option value="bayern munchen">Bayern Munchen</option>
+                <option value="liverpool">Liverpool</option>
+                </select>
+            <p>You rather win the</p>
+            <div class="radio">
+            <input name="2" type="radio"><label for="Definitely"> WORLDCUP</label> <br>
+            <input name="2" type="radio"><label for="Maybe"> CHAMPIONS LEAGUE</label>
+            </div>
+            <textarea placeholder="Enter your comment here..."></textarea>
+            <button>Submit</button>
+  
+        </div>
+    </body>
+</html>

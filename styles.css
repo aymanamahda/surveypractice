@@ -1,0 +1,58 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(https://wallpapers.com/images/hd/high-resolution-blue-background-1920-x-1200-3to6z1520q9xxomq.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    
+}
+header{
+    margin-top: 30px;
+    text-align: center;
+}
+.surveyform{
+    background-color: rgb(0, 0, 0,0.5);
+    padding: 20px 50px 70px 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    width: 600px;
+    border-radius: 5px;
+
+}
+input, select{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: start;
+    font-size: 20px;
+    
+}
+option{
+    padding: 20px;
+    margin: 0;
+}
+textarea{
+    margin: 20px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+button{
+    background-color: rgb(12, 163, 12);
+    color: white;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px ;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.radio{
+    text-align: start;
+}
