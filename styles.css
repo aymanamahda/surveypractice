@@ -9,8 +9,11 @@ body{
 header{
     margin: 30px auto;
     text-align: center;
-    display: flex;
-    flex-direction:column ;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .surveyform{
     background-color: rgb(0, 0, 0,0.5);
